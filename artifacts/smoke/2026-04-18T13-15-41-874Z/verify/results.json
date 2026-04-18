@@ -1,0 +1,16 @@
+{
+  "decision": "no-go",
+  "missingItems": [
+    "Inline implementer payloads referenced by the request were not present in the available prompt/context.",
+    "No controller send invocation record or payload.",
+    "No stream transcript or incremental controller event log.",
+    "No wait/completion receipt proving the controller run was awaited.",
+    "No artifact retrieval manifest, transcript, or fetched payload tied to the controller flow."
+  ],
+  "waivers": [],
+  "followups": [
+    "Re-run the controller smoke slice and capture raw evidence for create, send, stream, wait, and artifact retrieval.",
+    "Include the agent-scoped implementer payloads in the verifier handoff so they can be audited directly.",
+    "Persist a machine-readable controller event log or manifest in the run directory."
+  ]
+}
