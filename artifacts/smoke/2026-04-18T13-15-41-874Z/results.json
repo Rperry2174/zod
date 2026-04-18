@@ -1,0 +1,10 @@
+{
+  "changedFiles": [],
+  "commandsRun": [
+    "cd /workspace && git rev-parse --show-toplevel && git branch --show-current && git remote get-url origin 2>/dev/null; git status -sb",
+    "mkdir -p \"/workspace/artifacts/smoke/2026-04-18T13-15-41-874Z\""
+  ],
+  "repoUrl": "https://github.com/Rperry2174/zod",
+  "currentBranch": "main",
+  "notes": "Smoke test for controller workflow: no edits to tracked source files; created only artifacts under artifacts/smoke/2026-04-18T13-15-41-874Z/. Remote URL observed with token credential is omitted from persisted JSON in favor of the canonical public HTTPS URL."
+}
